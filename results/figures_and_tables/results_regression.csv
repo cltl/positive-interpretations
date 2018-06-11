@@ -1,0 +1,24 @@
+Features	Pearson's R	Spearman's R	RMSE
+('predicate_',)	0.078	0.061	1.76
+('semrole_',)	0.641	0.636	1.39
+('semrole_label',)	0.656	0.639	1.282
+('verb-semrole_',)	0.603	0.595	1.357
+('verbarg-struct_',)	0.148	0.14	1.747
+('predicate_', 'semrole_')	0.641	0.633	1.397
+('predicate_', 'semrole_label')	0.633	0.637	1.383
+('predicate_', 'verb-semrole_')	0.585	0.605	1.436
+('predicate_', 'verbarg-struct_')	0.141	0.136	1.749
+('semrole_', 'verb-semrole_')	0.636	0.643	1.395
+('semrole_', 'verbarg-struct_')	0.652	0.614	1.438
+('semrole_label', 'verb-semrole_')	0.64	0.619	1.299
+('semrole_label', 'verbarg-struct_')	0.655	0.631	1.561
+('verb-semrole_', 'verbarg-struct_')	0.632	0.615	1.539
+('predicate_', 'semrole_', 'verb-semrole_')	0.634	0.638	1.399
+('predicate_', 'semrole_', 'verbarg-struct_')	0.651	0.612	1.456
+('predicate_', 'semrole_label', 'verb-semrole_')	0.618	0.615	1.397
+('predicate_', 'semrole_label', 'verbarg-struct_')	0.655	0.628	1.591
+('predicate_', 'verb-semrole_', 'verbarg-struct_')	0.632	0.613	1.571
+('semrole_', 'verb-semrole_', 'verbarg-struct_')	0.651	0.643	1.418
+('semrole_label', 'verb-semrole_', 'verbarg-struct_')	0.642	0.64	1.435
+('predicate_', 'semrole_', 'verb-semrole_', 'verbarg-struct_')	0.653	0.641	1.424
+('predicate_', 'semrole_label', 'verb-semrole_', 'verbarg-struct_')	0.646	0.642	1.451
