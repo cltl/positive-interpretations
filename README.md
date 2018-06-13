@@ -2,9 +2,11 @@
 
 This repository contains the code for conducting the experiments as reported in the following paper:
 
-> C. van Son, R. Morante, L. Aroyo, and P. Vossen. Scoring and Classifying Implicit Positive Interpretations: A Challenge of Class Imbalance. In *Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)*, Santa Fe, New Mexico, 2018.
+> C. van Son, R. Morante, L. Aroyo, and P. Vossen. Scoring and Classifying Implicit Positive Interpretations: A Challenge of Class Imbalance. In *Proceedings of the 27th International Conference on Computational Linguistics (COLING 2018)*, Santa Fe, New Mexico, 2018 (to appear).
 
-It scores and classifies the positive interpretations generated from verbal negations in OntoNotes.
+It scores and classifies the positive interpretations generated from verbal negations in OntoNotes following the approach and evaluated on the dataset as described in the following paper:
+
+> E. Blanco and Z. Sarabi. Automatic generation and scoring of positive interpretations from negated statements. *In Proceedings of NAACL-HLT*, San Diego, CA, pages 1431–1441, 2016.
 
 ## Requirements
 The Jupyter Notebooks in this repository have already been rendered, so that you can inspect the results. Please note, however, that in order to run the code, one has to first obtain the data:
